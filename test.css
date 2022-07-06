@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border -box;
+    
+
+}
+.logo55{
+    width:150px;
+    height: 150px;
+}
+.con99{
+    
+    background:linear-gradient(to right,#00093c,#2d0b00);
+}
+.heading{
+    color:white;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-top: 10px;  
+}
+.heading2{
+    color:yellow;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}

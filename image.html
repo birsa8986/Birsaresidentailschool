@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"type="text/css" href="image.css">
+<link rel="stylesheet"type="text/css" href="nav.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> 
+<!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Images</title>
+</head>
+<body>
+
+
+    <!-------------------------------------------------Header ----------------------------------------------------------------------------------->
+   
+      
+      <!------------------------------------------------------------ Nav  bar  ------------------------------------------------------------------>
+      
+      
+      <nav class="navbar navbar-expand-lg navbar-light  text light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html"><h6 class="about">Home</h6></a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"><h6 class="about1">About</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="learining.html"><h6 class="about1">Learning</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="image.html"><h6 class="about1">Gallery</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="newsEvents.html"><h6 class="about1">News & Events</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="parents.html"><h6 class="about1">Parents</h6></a>
+                </li>
+              </ul>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button type="button" class="btn btn-outline-dark  " data-bs-toggle="modal" data-bs-target="#stuModal">Student</button>
+                  <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#adminModal">Admin</button>
+                </div>
+             </div>
+            </div>
+          </div>
+        </nav>
+      
+       
+      
+      
+      <!------------------------------------------------------ Modal  ----------------------------------------------------------->
+      
+      
+      
+        <!------------------------------------------------------ User Modal  ------------------------------------------------------------>
+       
+        <div class="modal fade" id="stuModal" tabindex="-1" aria-labelledby="stuModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="stuModalLabel"> Student Login Page&nbsp;! </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form action="/action_page.php">
+                    <div class="mb-3 mt-3">
+                      <label for="email"> First Name </label>
+                      <input type="email" class="form-control" id="email" placeholder="sugat" name="First">
+                    </div>
+                    <div class="mb-3 mt-3">
+                      <label for="email"> Last  Name </label>
+                      <input type="email" class="form-control" id="email" placeholder="Sidharth" name="second">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd"> Re-Enter Password:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder=" Birsa@12345" name="cpswd">
+                    </div>
+                    <div class="form-check mb-3">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!------------------------------------------------------------Admin Modal  ------------------------------------------------------->
+        <div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="adminModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="adminModalLabel"> Admin Login Page&nbsp;!! </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form action="/action_page.php">
+                    <div class="mb-3 mt-3">
+                      <label for="email"> User ID </label>
+                      <input type="email" class="form-control" id="email" placeholder="Birsa@stt" name="user">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd"> Re-Enter Password:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="G@12345" name="cpswd">
+                    </div>
+                    <div class="form-check mb-3">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+<br>
+
+
+
+    <!---------------------------------------------------Header -------------------------------------------------------------------------------->
+    <div class="container">
+        <div class="gal1">
+            <h1 class="icon11"><i class="bi11 bi-image"></i> &nbsp;&nbsp;The Image Gallery </h1>
+        </div>
+    
+    </div>
+     <br>
+     <br>
+    
+    <div class="container gallery-container">
+<!---------------------------------------------------- our achivment ----------------------------------->
+
+
+        <h1 class="our"><u> Our Achievment </u></h1>
+    
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/39.jpeg" >
+                        <img src="school/39.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/6.jpeg">
+                        <img src="school/6.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="school/33.jpeg">
+                        <img src="school/33.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/15.jpeg">
+                        <img src="school/15.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/7.jpeg">
+                        <img src="school/7.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/38.jpeg">
+                        <img src="school/38.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/17.jpeg">
+                        <img src="school/17.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/23.jpeg">
+                        <img src="school/23.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/25.jpeg">
+                        <img src="school/25.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+<br>
+<br>
+
+<!---------------------------------------programmme  -------------------------------------------------------->
+
+               <h1 class="our1"><u> Our School Programme </u></h1>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/14.jpeg">
+                        <img src="school/14.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/18.jpeg">
+                        <img src="school/18.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/21.jpeg">
+                        <img src="school/21.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/13.jpeg">
+                        <img src="school/13.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/10.jpeg">
+                        <img src="school/10.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/9.jpeg">
+                        <img src="school/9.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+
+<!--------------------------------------------Compound --------------------------------------------------------->
+<br>
+
+               <h1 class="our2"><u> Our School Compound</u></h1>
+
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/20.jpeg">
+                        <img src="school/20.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/34.jpeg">
+                        <img src="school/34.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/35.jpeg">
+                        <img src="school/35.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/36.jpeg">
+                        <img src="school/36.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/26.jpeg">
+                        <img src="school/26.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/1.jpeg">
+                        <img src="school/1.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/29.jpeg">
+                        <img src="school/29.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/22.jpeg">
+                        <img src="school/22.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="school/19.jpeg">
+                        <img src="school/19.jpeg" alt="Slow Internet">
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+        </script>
+    </body>
+    </html>
+
+  <!-- second dheader!-->
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

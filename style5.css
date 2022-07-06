@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con50{
+    height: 1197px;
+    background-color:  rgb(220, 247, 250);
+    }
+.for1{
+    color:rgb(5, 5, 61) ;
+    text-align: center;
+font-size: 80px;
+font-weight: 200;
+font-family:Arial, Helvetica, sans-serif;
+padding-top: 160px;
+}
+.parents2{
+    color: rgb(5, 5, 61);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.img21{
+    width:660px;
+}
+.con54{
+    height: 350px;
+    background-color: rgb(179, 11, 11);
+}
+.con55{
+    height: 350px;
+    background-color: rgb(179, 11, 11);
+}
+.safety1{
+    color:white ;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para5{
+    color: white;
+    padding-top: 30px;
+
+}
+.con53{
+    width: 1200px;
+    padding-left: 90px;
+}
+
+.con57{
+    height: 900px;
+    background-color: rgb(251, 232, 225);
+}
+.con58{
+    height: 900px;
+    background-color: rgb(246, 206, 191);
+
+}
+.img22{
+    width: 550px;
+    height: 500px;
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.img23{
+    width: 550px;
+    height: 500px;
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.arri2{
+    padding-top: 75px;
+    color: rgb(10, 7, 55);
+    padding-left: 100px;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.para6{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.con61{
+    height: 900px;
+    background-color: rgb(251, 232, 225);
+}
+.con60{
+    height: 900px;
+    background-color: rgb(246, 206, 191);
+}
+
+
+
+
+
+
+.con7{
+    height: 600px;
+
+}
+.con8{
+
+    height: 600px;
+}
+.con9{
+    height: 600px;
+}
+.add{
+color: rgb(240, 229, 12);
+}
+.join{
+    color: rgb(240, 229, 12);
+}
+.contact{
+    color: rgb(240, 229, 12);
+}
+.foot{
+    color:white;
+    text-align: center;
+}
+.detail{
+    color: white;
+}
+.icon.bi{
+    color: aliceblue;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.icon{
+    color: white;
+}
+.sim{
+    color: chocolate;
+    font-size: 30px;
+    font-family:initial;
+}
+.bi1{
+    padding-top: 50px;
+    color: rgb(20, 139, 242);
+    margin-right: 10px;
+}
+.bi2{
+    color: rgb(1, 155, 104);
+    margin-right: 10px;
+}
+.bi3{
+    color: rgb(222, 49, 49);
+    margin-right: 10px;
+}
+.bi4{
+    color: rgb(199, 15, 15);
+    margin-right: 10px;
+}
+.fa{
+    color: rgb(199, 15, 15);
+    margin-right: 10px;
+    
+}
+.form-label1{
+    color: white;
+}
+.form-check-label8{
+    color: white;
+}
+
+
+
+/*--------------------------------------------- Part   2 ---------------------------------------*/
+
+

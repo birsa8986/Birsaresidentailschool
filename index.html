@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"type="text/css" href="index.css">
+<link rel="stylesheet"type="text/css" href="nav.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title> new </title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!------------------------------------------------------------------------ heading------------------------------------------------->
+
+ <div class="container-fluid p-7 text-white text-center  con99">
+  <div class="row">
+    <div class="col-md-1 ">
+ <figure>
+   <img src="school/lggg.png" alt="" class="logo55">
+ </figure>
+    </div>
+    <div class=" col-md-11 ">
+      <h1 class="heading">Birsa Residential School Saldega , Simdega(Jharkhand)</h1>
+      <p class="heading2"><u>(Managed by :- Manorama Education Foundation, Registered under Socities Reg Act 1860 )</u></p> 
+    </div>
+ 
+  </div>
+</div>
+    
+    
+    <!------------------------------------------------------------ Nav  bar  ------------------------------------------------------------------>
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light    ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse   " id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0   justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><h6 class="about">Home</h6></a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><h6 class="about1">About</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="learining.html"><h6 class="about1">Learning</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photo.html"><h6 class="about1">Gallery</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newsEvents.html"><h6 class="about1">News & Events</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="parents.html"><h6 class="about1">Parents</h6></a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-outline-dark  " data-bs-toggle="modal" data-bs-target="#stuModal">Student</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#adminModal">Admin</button>
+              </div>
+           </div>
+          </div>
+        </div>
+      </nav>
+    
+      
+      
+    <br>
+    
+     
+    
+    
+    <!------------------------------------------------------ Modal  ----------------------------------------------------------->
+    
+    
+    
+      <!------------------------------------------------------ User Modal  ------------------------------------------------------------>
+     
+      <div class="modal fade" id="stuModal" tabindex="-1" aria-labelledby="stuModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="stuModalLabel"> Student Login Page&nbsp;! </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email"> First Name </label>
+                    <input type="email" class="form-control" id="email" placeholder="sugat" name="First">
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <label for="email"> Last  Name </label>
+                    <input type="email" class="form-control" id="email" placeholder="Sidharth" name="second">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd"> Re-Enter Password:</label>
+                    <input type="text" class="form-control" id="pwd" placeholder=" Birsa@12345" name="cpswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!------------------------------------------------------------Admin Modal  ------------------------------------------------------->
+      <div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="adminModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="adminModalLabel"> Admin Login Page&nbsp;!! </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email"> User ID </label>
+                    <input type="email" class="form-control" id="email" placeholder="Birsa@stt" name="user">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd"> Re-Enter Password:</label>
+                    <input type="text" class="form-control" id="pwd" placeholder="G@12345" name="cpswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------ collapes---------------------------------------->
+    <br>
+    <header>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="school/39.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <h2 class="achi55">Our Achievement</h2>
+                <p class="got55"><u> School Got Clean School Campus In District</u></p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="school/14.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <h2 class="achi57">  Our Littel Champ</h2>
+                <p class="got57"><u>Litile Champ Presenting Own Talent</u></p>
+              </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img src="school/27.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h2 class="achi56">Our Compound</h2>
+              <p class="got56"> <u>our School Campus envirnment  is Well Descipline and Naturally</u></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </header>
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+  <br>
+  <br>
+  <div>
+    <marquee >
+     <h4 class="simm"> BIRSA&nbsp;  RESIDENTIAL&nbsp;    SCHOOL&nbsp;    SALDEGA ,&nbsp;    SIMDEGA &nbsp;  (JHARKHAND) &nbsp;&nbsp;&nbsp;&nbsp;  BIRSA &nbsp; RESIDENTIAL  &nbsp;  SCHOOL &nbsp;   SALDEGA , &nbsp;  SIMDEGA  &nbsp; (JHARKHAND) </h4>
+    </marquee>
+  </div>
+<!----------------------------------------------- Part 1  ------------------------------------------------------------------------->
+
+<br>
+
+
+
+
+
+
+
+<div class="container con50">
+  <div class="row g-0">
+    <div class="col-sm-6 con51">
+      <h1 class="parents2">Birsa Residential School</h1>
+      <h1 class="for1"> A Great Place to Learn</h1>
+      <br>
+      <br>
+      <a class="nav2" aria-current="page" href="#"><u>About Our School</u></a>
+  </div>
+
+
+    <div class="col-sm-6 con52">
+      <img src="img/1j.jpg" alt="images "class="img21">
+   
+  </div>
+</div>
+</div>
+
+
+
+<!--    part     2-->
+
+
+
+
+<div class="container con53">
+<div class="row g-0">
+<div class="col-sm-6 con54">
+  <img src="img/2.webp" alt="images "class="img2">
+   
+</div>
+<div class="col-sm-6 con55">
+<h1 class="safety">Safety First</h1>
+<p class="para7">Full reopening plans for next year, include a physically-distanced in-person learning mode</p>
+<br>
+<a class="nav4" aria-current="page" href="#"><u>Learn More</u></a>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Part   3 -->
+
+
+
+
+
+<br>
+<br>
+<br>
+<div class="why" > Why Birsa Residential School</div>
+<br>
+<br>
+<br>
+
+<!---- Part  4     -->
+
+
+
+
+<div class="container   ">
+<div class="row">
+<div class="col-sm-8  img3">
+<h1 class="our"> Our Approach</h1>
+<br>
+<br>
+<p class="approach">The first three years of a child’s life are a critical stage in their development, yet all too often, families do not have adequate support during these years leading up to school. We start working with children and their families several years before kindergarten to reach children at a critical stage in their development. From the beginning, we provide robust universal services, like developmental screenings, to identify and address a child’s needs early. In addition, we connect families to early intervention services to reduce the need for more intensive interventions later on.</p>
+<br>
+<a class="nav8" aria-current="page" href="#"><u> Learn More</u></a> 
+</div>
+<div class="col-sm-4  img4">
+<h1 class="addmition"> Addmition</h1>
+<br>
+<br>
+<p class="para">As the new academic year is going to start, I would like to announce a admission programme where I would be issuing a form where you will be in need of filling in it will all the information. The forms will be given to you . </p>
+<br>
+<br>
+<a class="nav9" aria-current="page" href="#"><u> Enroll Today</u></a> 
+</div>
+</div>
+
+
+
+
+<!----  Part   5     -->
+
+
+
+<div class="container">
+<div class="row">
+<div class="col conn">
+  <h1 class="enh1">Enhance <br>Learning</h1>
+  <p class="para2">&bull;Share past experiences, values, and attitudes.<br>&bull;
+    Design an activity that brings students to your office during the first weeks of class.<br>&bull;
+    Try to get to know your students by name by the end of the first three weeks of the term.<br>&bull;
+    Attend, support, and sponsor events led by student groups.<br>&bull;
+    Hold “out of class” review sessions.<br>&bull;
+    Hold regular “hours” in the Michigan Union or residence halls where students can stop by for informal visits.<br>&bull;
+    Take students to professional meetings or other events in your field.</p>
+    <a class="nav10" aria-current="page" href="#"><u> View Programs</u></a> 
+</div>
+<div class="col con2">
+  <h1 class="enh1">Latest News & <br>Events</h1>
+  <p class="para2">&bull;Administrators need to alert parents about quick/emergencies with school-wide notifications, concerned with weather delays and closings.<br>&bull;
+    Teachers need to send updates about classroom happenings to parents.<br>&bull;
+    Both Parents/Students need to connect with Admins/ Teachers for their requirements.</p>
+    <br>
+    <br>
+    <a class="para2" aria-current="page" href="#"><u> View All</u></a> 
+</div>
+<div class="col   con3">
+
+</div>
+</div>
+</div>
+
+<!---- Part   6   -->
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col con4">
+<h1 class="for2">For the Parents</h1>
+<p class="para12">Through open communication and collaboration, parents and teachers create important opportunities for teens to develop social, emotional, and academic skills.</p>
+  <a class="nav12" aria-current="page" href="#"><u> Get Informed</u></a> 
+</div>
+<div class="col con5">
+
+</div>
+<div class="col   con6">
+
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<!----- Part   7     -->
+<br>
+<div class="why" > Birsa Residential School in  Numbers</div>
+<br>
+<br>
+<br>
+
+
+<!------- part   8  -->
+
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col con90">
+    <br>
+    <br>
+    <img src="img/tro.png" alt="images" class="tro">
+  <h1 class="num14">14</h1>
+  <h6 class="year1"> Year of Excellence</h6>
+</div>
+<div class="col con91">
+  <img src="img/profe.png" alt="images" class="pro">
+  <h1 class="num15">100 %</h1>
+  <h6 class="year2"> Sucess Rate</h6> 
+
+</div>
+<div class="col   con92">
+    <br>
+  <img src="img/teacher.webp" alt="images" class="cer">
+  <h1 class="num16">35</h1>
+  <h6 class="year3"> Certified Teachers</h6> 
+
+</div>
+</div>
+</div>
+
+
+
+<!----- Part   9  -->
+<div class="container">
+<div class="row ">
+<div class="col con93">
+    <br>
+    <br>
+ <img src="img/batch.png" alt="images" class="teach">
+<br>
+<br>
+ <h1 class="num17">100 %</h1>
+ <h6 class="year4">  Satisfied Parents</h6> 
+</div>
+<div class="col con94">
+  
+</div>
+<div class="col   con95">
+    <br>
+  <img src="img/peop.png" alt="images" class="peop">
+  <h1 class="num18">100 %</h1>
+ <h6 class="year5">  Satisfied Parents</h6> 
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+
+<!-----Part  8-->
+
+<div class="container bg-dark  ">
+<div class="row">
+<div class="col con7">
+<h1 class="add">Address</h1>
+<br>
+<br>
+<h6 class="detail">Saldega , Tongri Toli<br> Simdega (Jharkhand)<br>Pin Code: 835223 <br> Mob.No:7004007040<br>E-mail :Birsastt@gmail.com</h6>
+
+</div>
+<div class="col con8">
+<h1 class="join">Join the Community</h1>
+<br>
+<br>
+<h6 class="icon"><i class="bi1 bi-facebook"></i>Facebook <br><br><i class="bi2 bi-whatsapp"></i>Whatsapp<br><br><i class="bi3 bi-envelope"></i>E-Mail<br><br><i class="bi4 bi-instagram"></i>Instagram</h6>
+<div>
+<i class="bi bi-facebook"></i>
+</div>
+
+
+</div>
+<div class="col   con9">
+  <h1 class="contact">Contact</h1>
+
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputfirstname" class="form-label1">First Name</label>
+      <input type="text" class="form-control" id="first"placeholder="sanskriti">
+    </div>
+    <div class="col-md-6">
+      <label for="inputLastname" class="form-label1">Last Name</label>
+      <input type="text" class="form-control" id="last"placeholder="sidhharth">
+    </div>
+    <div class="col-12">
+      <label for="inputnumber" class="form-label1">Mobile Number</label>
+      <input type="number" class="form-control" id="number" placeholder="123456">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label1">Address </label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="saldega, tongri toli">
+    </div>
+    <div class="col-md-6">
+      <label for="inputdistict" class="form-label1">Distict</label>
+      <input type="text" class="form-control" id="inputdistict"placeholder="simdega">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label1">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Jharkhand</option>
+        <option>Bihar</option>
+        <option>Orisha</option>
+        <option>Chhatisgarh</option>
+        <option>Bengal</option>
+        <option>Uttar Pradesh</option>
+        <option>Delhi</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+        <label for="inputnumber" class="form-label1">Pin Code</label>
+        <input type="number" class="form-control" id="number" placeholder="835223">
+      </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label8" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+<div class="container bg-dark">
+<h6 class="foot"> © 2022 by Birsa Residential School. Proudly Created by Sanskriti</h6>
+</div>
+
+
+
+
+<!----------------------------------------------------------- Part  2-------------------------------------------------->
+
+
+
+
+
+</body>
+</html>

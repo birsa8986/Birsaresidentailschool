@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con1{
+    height: 150px;
+    background:linear-gradient(to right,#00093c,#2d0b00);
+}
+.heading{
+    color:white;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 50px;
+
+
+}
+.heading2{
+    color:yellow;
+    padding-left: 120px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo1{
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 170px;
+    height: 150px;
+
+}
+.navbar{
+    background:linear-gradient(to right,#79c3f5,#f083ce);
+    color: white;
+}
+.about{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    padding-left: 450px;}
+.about1{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    padding-left: 40px;
+
+}
+.carousel-item img{
+    width: 50vh;
+    height: 100vh;
+}
+.achi55{
+    color:rgb(16, 250, 66);
+    font-size: 50px;
+    font-family: cursive;
+}
+.got55{
+    color: rgb(218, 244, 19);
+    font-size: 30px;
+}
+.achi56{
+    color: #e9f90b;
+    font-size: 50px;
+    font-family: cursive;
+}
+.got56{
+    color: rgb(244, 19, 203);
+    font-size: 30px;
+}
+.achi57{
+
+    color:white;
+    font-size: 50px;
+    font-family: cursive;
+}
+.got57{
+    color: rgb(218, 244, 19);
+    font-size: 30px;
+}
+
+
+
+
+
+

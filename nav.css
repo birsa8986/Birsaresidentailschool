@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+
+}
+.con1{
+    height: 150px;
+    background:linear-gradient(to right,#00093c,#2d0b00);
+}
+.heading{
+    color:white;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-top: 10px;  
+
+
+}
+.heading2{
+    color:yellow;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo1{
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 170px;
+    height: 150px;
+
+}
+.navbar{
+    background:linear-gradient(to right,#79c3f5,#f083ce);
+    color: white;
+   
+}
+.about{
+  padding-left: 400px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+
+}
+.about1{
+    font-size: 20px;
+    font-family:cursive;
+    padding-left: 40px;
+}
+
+
+
+
+/*--------------------------------------*/
+
+.about {
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#0de82a 50%,#000 0) 
+      var(--_p,100%)/200% ;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .7s;
+  }
+  .about:hover {
+    --_p: 0%;
+
+  }
+  .about1{
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#0de82a 50%,#000 0) 
+      var(--_p,100%)/200% ;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .7s;
+  }
+  .about1:hover {
+    --_p: 0%;
+
+
+
+  }
+  
+/*-------------------------------------------------------------*/
+/*--------------------------------*/
+
+.logo55{
+  width:150px;
+  height: 150px;
+}
+.con99{
+  
+  background:linear-gradient(to right,#00093c,#2d0b00);
+}
+.heading{
+  color:white;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  padding-top: 10px;  
+}
+.heading2{
+  color:yellow;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.imgg999 {
+  width: 100%;
+  height: 100%;
+}

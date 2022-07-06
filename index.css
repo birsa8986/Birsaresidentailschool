@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------------------------navbar */
+.carousel-item img{
+    width: 50vh;
+    height: 100vh;
+}
+.achi55{
+    color:rgb(16, 250, 66);
+    font-size: 50px;
+    font-family: cursive;
+}
+.got55{
+    color: rgb(218, 244, 19);
+    font-size: 30px;
+}
+.achi56{
+    color: #e9f90b;
+    font-size: 50px;
+    font-family: cursive;
+}
+.got56{
+    color: rgb(244, 19, 203);
+    font-size: 30px;
+}
+.achi57{
+
+    color:white;
+    font-size: 50px;
+    font-family: cursive;
+}
+.got57{
+    color: rgb(218, 244, 19);
+    font-size: 30px;
+}
+
+
+/*  !------------------------------------------- Part 1 -----------------------------------*/
+
+
+.con51{
+    height: 796px;
+    background-color:  rgb(185, 19, 19)
+    }
+    .con52{
+        height: 796px;
+        background-color: aqua;
+    }
+.for1{
+    color:white;
+    text-align: center;
+font-size: 80px;
+padding-top: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+.parents2{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.nav2{
+    color: aliceblue;
+    padding-left: 180px;
+    font-size: 20px;
+}
+.img21{
+    width:660px;
+}
+.con54{
+    height: 710px;
+    background-color: rgb(183, 237, 249);
+}
+.con55{
+    height: 710px;
+    background-color: rgb(214, 241, 247);
+}
+.img2{
+    width: 550px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.safety{
+ color: rgb(7, 7, 72);
+ padding-left: 80px;
+ padding-top: 230px;
+ font-size: 48px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para7{
+    padding-left: 80px;
+}
+.nav4{
+    color: rgb(7, 7, 72);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 80px;
+}
+
+
+
+
+.why{
+    color: rgb(13, 13, 75);
+    font-size: 50px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 100px;
+
+}
+.img3{
+    width: 100px;
+    height: 530px;
+    background-image:url('img/3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+}
+.approach{
+    color: white;
+    padding-left: 50px;
+    padding-right: 300px;
+}
+.img4{
+    height: 530px;
+    background-color: rgb(209, 46, 46);
+}
+.nav8{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+    .addmition{
+  color:white ;
+  font-weight: 700;
+  padding-top: 50px;
+    }
+    .para{
+        color: white;
+    }
+.nav9{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.enh1{
+    color: white;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.para2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.img5{
+    width: 500px;
+    height: 500px;
+    background-image:url('img/4.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conn{
+    background-image:url(img/15.webp) ;
+    height: 600px; 
+
+}
+.con2{
+    background-color: rgb(190, 43, 43);
+    height: 600px;
+}
+.nav10{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 70px;
+}
+.con3{
+    background-image:url('img/6.webp') ;
+    height: 600px;
+}
+.con4{
+    background-color: rgb(133, 36, 36);
+    height: 600px;
+
+}
+.con5{
+    background-image:url('img/14.webp') ;
+    height: 600px;
+}
+.for2{
+    color: white;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.para12{
+    color: white;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.nav12{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.con90{
+    height: 450px;
+    background-color: rgb(214, 241, 247);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
+
+}
+.con91{
+    height: 450px;
+    background-color: rgb(214, 241, 247);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom:2px solid black;
+}
+    .con92{
+        height: 450px;
+        background-color: rgb(214, 241, 247);
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom:2px solid black;
+        border-right:2px solid black;
+
+    }
+    .con93{
+        height: 500px;
+        background-color: rgb(214, 241, 247);
+        border-left: 2px solid black;
+        border-bottom:2px solid black;
+    
+    }
+    .con94{
+
+background-image: url(img/8.webp);
+        border-left: 2px solid black;
+        border-bottom:2px solid black;
+    }
+        .con95{
+            height: 500px;
+            background-color: rgb(214, 241, 247);
+            border-left: 2px solid black;
+            border-bottom:2px solid black;
+            border-right:2px solid black;
+    
+        }
+   .tro
+        {
+            width: 300px;
+            height: 150px;
+            padding-left: 120px;
+    
+        }
+        .pro{
+            width: 300px;
+            height: 190px;
+            padding-left: 80px; 
+        }
+
+    .num14{
+        color: rgb(13, 13, 78);
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-left: 147px;
+    }
+    .year1{
+        color: rgb(11, 11, 71);
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 125px;
+    }
+    
+    .num15{
+        color: rgb(13, 13, 78);
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-left: 60px;
+    }
+    .year2{
+        color: rgb(11, 11, 71);
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 125px;
+    }
+    .cer{
+        width: 280px;
+        height: 150px;
+        padding-left: 125px; 
+    }
+    .num16{
+        color: rgb(13, 13, 78);
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-left: 150px;
+    }
+    .year3{
+        color: rgb(11, 11, 71);
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 135px;
+    }
+    .teach{
+        width: 280px;
+        height: 150px;
+        padding-left: 125px; 
+    }
+    .num17{
+        color: rgb(13, 13, 78);
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-left: 75px;
+    }
+    .year4{
+        color: rgb(11, 11, 71);
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 120px;
+    
+    }
+    .peop{
+        width: 350px;
+        height: 200px;
+        padding-left: 70px; 
+    }
+    .num18{
+        color: rgb(13, 13, 78);
+        font-size: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-left: 75px;
+    }
+    .year5{
+        color: rgb(11, 11, 71);
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 135px;
+    }
+
+
+    /*----------------------------- Part 2 --------------------------------------------------------*/
+
+    
+
+.con7{
+    height: 600px;
+
+}
+.con8{
+
+    height: 600px;
+}
+.con9{
+    height: 600px;
+}
+.add{
+color: rgb(240, 229, 12);
+}
+.join{
+    color: rgb(240, 229, 12);
+}
+.contact{
+    color: rgb(240, 229, 12);
+}
+.foot{
+    color:white;
+    text-align: center;
+}
+.detail{
+    color: white;
+}
+.icon.bi{
+    color: aliceblue;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.icon{
+    color: white;
+}
+.sim{
+    color: chocolate;
+    font-size: 30px;
+    font-family:initial;
+}
+.bi1{
+    color: rgb(20, 139, 242);
+    margin-right: 10px;
+}
+.bi2{
+    color: rgb(1, 155, 104);
+    margin-right: 10px;
+}
+.bi3{
+    color: rgb(222, 49, 49);
+    margin-right: 10px;
+}
+.bi4{
+    color: rgb(199, 15, 15);
+    margin-right: 10px;
+}
+.fa{
+    color: rgb(199, 15, 15);
+    margin-right: 10px;
+    
+}
+.form-label1{
+    color: white;
+}
+.form-check-label8{
+    color: white;
+}
+
+
+.con71{
+    height: 700px;
+    background-color: brown;
+
+}
+.con72{
+    height: 700px;
+   background-color: aqua;
+}
+.simm{
+    color: rgb(85, 30, 214);
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"type="text/css" href="style3.css">
+<link rel="stylesheet"type="text/css" href="nav.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>learning </title>
+</head>
+<body>
+  
+  <div class="container-fluid p-7 text-white text-center  con99">
+    <div class="row">
+      <div class="col-md-1 ">
+   <figure>
+     <img src="school/lggg.png" alt="" class="logo55">
+   </figure>
+      </div>
+      <div class=" col-md-11 ">
+        <h1 class="heading">Birsa Residential School Saldega , Simdega(Jharkhand)</h1>
+        <p class="heading2"><u>(Managed by :- Manorama Education Foundation, Registered under Socities Reg Act 1860 )</u></p> 
+      </div>
+   
+    </div>
+  </div>
+    
+    
+    <!------------------------------------------------------------ Nav  bar  ------------------------------------------------------------------>
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light  text light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><h6 class="about">Home</h6></a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><h6 class="about1">About</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="learining.html"><h6 class="about1">Learning</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photo.html"><h6 class="about1">Gallery</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newsEvents.html"><h6 class="about1">News & Events</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="parents.html"><h6 class="about1">Parents</h6></a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-outline-dark  " data-bs-toggle="modal" data-bs-target="#stuModal">Student</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#adminModal">Admin</button>
+              </div>
+           </div>
+          </div>
+        </div>
+      </nav>
+    
+      
+      
+    <br>
+    
+     
+    
+    
+    <!------------------------------------------------------ Modal  ----------------------------------------------------------->
+    
+    
+    
+      <!------------------------------------------------------ User Modal  ------------------------------------------------------------>
+     
+      <div class="modal fade" id="stuModal" tabindex="-1" aria-labelledby="stuModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="stuModalLabel"> Student Login Page&nbsp;! </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email"> First Name </label>
+                    <input type="email" class="form-control" id="email" placeholder="sugat" name="First">
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <label for="email"> Last  Name </label>
+                    <input type="email" class="form-control" id="email" placeholder="Sidharth" name="second">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd"> Re-Enter Password:</label>
+                    <input type="text" class="form-control" id="pwd" placeholder=" Birsa@12345" name="cpswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!------------------------------------------------------------Admin Modal  ------------------------------------------------------->
+      <div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="adminModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="adminModalLabel"> Admin Login Page&nbsp;!! </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email"> User ID </label>
+                    <input type="email" class="form-control" id="email" placeholder="Birsa@stt" name="user">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd"> Re-Enter Password:</label>
+                    <input type="text" class="form-control" id="pwd" placeholder="G@12345" name="cpswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br>
+
+
+
+<!---------------------------------------part 1-------------------------------------------------------->
+
+
+
+
+      <div class="container  con12">
+        <div class="row g-0">
+          <div class="col-sm-6 con10">
+            <h1 class="learn1">Learning</h1>
+            
+            <br>
+            <div class="gen1">
+            <p>&nbsp;&nbsp;Particularly when working with children and teenagers, it can be hard to retain focus, &nbsp;&nbsp;manage behaviour, and encourage active participation. In addition, teaching adults can &nbsp;&nbsp;have its own challenges – it can be difficult for adult learners to absorb new things and &nbsp;&nbsp;change old thinking patterns.</p>
+         <p>&nbsp;&nbsp;Some simple ways to encourage experiential learning in your classroom include &nbsp;&nbsp;encouraging students to assess themselves regularly and reflect on what they’ve learnt. As &nbsp;&nbsp; a teacher, you might want to record yourself teaching or keep feedback journals so that &nbsp;&nbsp; you can reflect on previous lessons. </p>   
+        </div>
+            <br>
+          </div>
+          <div class="col-sm-6 con11">
+            <img src="img/12.webp" alt="images "class="img12">
+        </div>
+      </div>
+      <br>
+      <br>
+    
+    
+
+
+
+      
+
+      <div class="container  con20">
+        <div class="row g-0">
+          <div class="col-md-4 con21">
+            <h1 class="online1">Online <br>Classes <br>For All</h1>
+          </div>
+          <div class="col-md-4 con23">
+            <img src="img/13.webp" alt="images "class="img13">
+        </div>
+        <div class="col-md-4 con24">
+            <p class="para2">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            
+        </div>
+      </div>
+      <br>
+    
+    
+    
+
+
+
+
+      
+      <div class="container  con25">
+        <div class="row g-0">
+          <div class="col-md-4 con26">
+            <h1 class="nur1">NUR <br>L.K.G <br>U.K.G</h1>
+          </div>
+          <div class="col-md-4 con27">
+            <img src="img/14.webp" alt="images "class="img14">
+        </div>
+        <div class="col-md-4 con28">
+            <p class="para2">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            
+        </div>
+      </div>
+      <br>
+    
+    
+
+
+
+      <div class="container  con29">
+        <div class="row g-0">
+          <div class="col-md-4 con30">
+            <h1 class="one1">Classes <br>1-5</h1>
+          </div>
+          <div class="col-md-4 con31">
+            <img src="img/15.webp" alt="images "class="img15">
+        </div>
+        <div class="col-md-4 con32">
+            <p class="para2">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            
+        </div>
+      </div>
+      <br>
+    
+    
+
+
+      
+      <div class="container  con33">
+        <div class="row g-0">
+          <div class="col-md-4 con34">
+            <h1 class="five1">Classes <br>5-8</h1>
+          </div>
+          <div class="col-md-4 con35">
+            <img src="img/16.webp" alt="images "class="img13">
+        </div>
+        <div class="col-md-4 con36">
+            <p class="para2">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            
+        </div>
+      </div>
+      <br>
+      <br>
+
+
+
+
+
+
+
+
+      
+      <div class="container bg-dark  ">
+        <div class="row">
+          <div class="col con7">
+            <h1 class="add">Address</h1>
+            <br>
+            <br>
+            <h6 class="detail">Saldega , Tongri Toli<br> Simdega (Jharkhand)<br>Pin Code: 835223 <br> Mob.No:7004007040<br>E-mail :Birsastt@gmail.com</h6>
+            
+          </div>
+          <div class="col con8">
+           <h1 class="join">Join the Community</h1>
+           <br>
+           <br>
+           <h6 class="icon"><i class="bi1 bi-facebook"></i>Facebook <br><br><i class="bi2 bi-whatsapp"></i>Whatsapp<br><br><i class="bi3 bi-envelope"></i>E-Mail<br><br><i class="bi4 bi-instagram"></i>Instagram</h6>
+          <div>
+            <i class="bi bi-facebook"></i>
+          </div>
+          
+        
+          </div>
+          <div class="col   con9">
+              <h1 class="contact">Contact</h1>
+      
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputfirstname" class="form-label1">First Name</label>
+                  <input type="text" class="form-control" id="first"placeholder="sanskriti">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputLastname" class="form-label1">Last Name</label>
+                  <input type="text" class="form-control" id="last"placeholder="sidhharth">
+                </div>
+                <div class="col-12">
+                  <label for="inputnumber" class="form-label1">Mobile Number</label>
+                  <input type="number" class="form-control" id="number" placeholder="123456">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label1">Address </label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="saldega, tongri toli">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputdistict" class="form-label1">Distict</label>
+                  <input type="text" class="form-control" id="inputdistict"placeholder="simdega">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label1">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Jharkhand</option>
+                    <option>Bihar</option>
+                    <option>Orisha</option>
+                    <option>Chhatisgarh</option>
+                    <option>Bengal</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Delhi</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputnumber" class="form-label1">Pin Code</label>
+                    <input type="number" class="form-control" id="number" placeholder="835223">
+                  </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label8" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+      <div class="container bg-dark">
+        <h6 class="foot"> © 2022 by Birsa Residential School. Proudly Created by Sanskriti</h6>
+      </div>
+
+
+
+
+
+      
+
+
+
+    
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<!-- second dheader!-->
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
